@@ -834,10 +834,10 @@
             // Show copied message
             const copyBtn = document.getElementById('copy-referral');
             const originalText = copyBtn.textContent;
-            copyBtn.textContent = 'কপি হয়েছে!';
+            copyBtn.textContent = 'Copied successfully ✅!';
             copyBtn.style.background = 'var(--success-color)';
             
-            showNotification('রেফারেল লিঙ্ক কপি করা হয়েছে!', 'success');
+            showNotification('Referral link copied successfully ✅!', 'success');
             
             setTimeout(() => {
                 copyBtn.textContent = originalText;
